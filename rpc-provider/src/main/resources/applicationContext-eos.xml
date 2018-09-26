@@ -43,17 +43,17 @@
 	        <property name="dataSource" ref="dataSource"/>
 	 </bean>
 	
-	<!--加签配置 -->
+	<!--&lt;!&ndash;加签配置 &ndash;&gt;
 	<bean id="authSDKClient" class="com.yonyou.cloud.auth.sdk.client.AuthSDKClient">
 		<constructor-arg name="accessKey" value="${access.key}" />  
 		<constructor-arg name="accessSecret" value="${access.secret}" />  
 	</bean>
 	    
-	<!--eos组件配置综合 -->
+	&lt;!&ndash;eos组件配置综合 &ndash;&gt;
 	<bean id="eosConfig" class="com.yonyou.cloud.config.eos.EOSConfig">
     	<property name="jdbcTemplate" ref="jdbcTemplate"/>
     	<property name="transactionManager" ref="transactionManager"/>
     	<property name="authSDKClient" ref="authSDKClient"/>
-	</bean>
+	</bean>-->
 	
 </beans>

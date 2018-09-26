@@ -9,9 +9,7 @@
 		<param-value>
             classpath*:/applicationContext.xml,
             classpath*:/applicationContext-rpc.xml
-            <!--
             classpath*:/applicationContext-eos.xml
-            -->
         </param-value>
 	</context-param>
 	<listener>

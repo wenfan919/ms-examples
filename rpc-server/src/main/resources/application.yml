@@ -9,5 +9,7 @@ spring:
     active: online
   
 access: 
-  key: 3xq9IvdAtbuWf9dA
-  secret: Pq7DfIOQ3pINL5C6wVD0L4ywrYTn02
+  key: rUJ4YR1nNwovLiOg
+  secret: 3mQBP0rrEL2nJexMrj5VO1rt4vUbk1
+
+registry: http://172.20.23.170:8080

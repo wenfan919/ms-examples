@@ -14,7 +14,6 @@ import org.springframework.stereotype.Service;
 public class StatisticsService implements IStatisticsService {
 	
 	private static final Logger LOGGER = LoggerFactory.getLogger(StatisticsService.class);
-
 	@Override
 	public Boolean statisticCallInfo(String type, String ts) throws Exception {
 		LOGGER.info("{} 类型的方法被调用，调用时间为{}.", type, ts);
