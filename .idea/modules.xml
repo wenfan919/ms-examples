@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/i18n-api/i18n-api.iml" filepath="$PROJECT_DIR$/i18n-api/i18n-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/i18n-server/i18n-server.iml" filepath="$PROJECT_DIR$/i18n-server/i18n-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/ms-examples.iml" filepath="$PROJECT_DIR$/.idea/ms-examples.iml" />
       <module fileurl="file://$PROJECT_DIR$/rpc-api/rpc-api.iml" filepath="$PROJECT_DIR$/rpc-api/rpc-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/rpc-client/rpc-client.iml" filepath="$PROJECT_DIR$/rpc-client/rpc-client.iml" />

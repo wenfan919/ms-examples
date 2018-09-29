@@ -6,6 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="i18n-api" />
+        <module name="i18n-server" />
         <module name="rpc-api" />
         <module name="rpc-client" />
         <module name="rpc-provider" />
@@ -13,6 +15,8 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="i18n-api" target="1.8" />
+      <module name="i18n-server" target="1.8" />
       <module name="ms-examples" target="1.7" />
       <module name="rpc-api" target="1.8" />
       <module name="rpc-client" target="1.8" />

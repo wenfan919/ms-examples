@@ -23,7 +23,7 @@ public class MsClientService {
 	@Autowired(required=true)
 	private INotifyService notifyService;
 
-	@Autowired
+	@Autowired(required=true)
 	private JdbcTemplate jdbcTemplate;
 
 	public String getRemoteChartData(String type) throws Exception {

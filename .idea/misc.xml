@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/i18n-server" />
     <file type="web" url="file://$PROJECT_DIR$/rpc-client" />
     <file type="web" url="file://$PROJECT_DIR$/rpc-provider" />
     <file type="web" url="file://$PROJECT_DIR$/rpc-server" />

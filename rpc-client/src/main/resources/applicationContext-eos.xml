@@ -23,9 +23,9 @@
         <property name="username" value="${jdbc.username}"/>
         <property name="password" value="${jdbc.password}"/>
         <property name="defaultAutoCommit" value="true"/>
-        <property name="maxActive" value="2"/>
-        <property name="maxIdle" value="1"/>
-        <property name="minIdle" value="1"/>
+        <property name="maxActive" value="20"/>
+        <property name="maxIdle" value="10"/>
+        <property name="minIdle" value="10"/>
         <property name="maxWait" value="120000"/>
         <property name="testWhileIdle" value="true"/> 
         <property name="validationQuery" value="select 1"/> 
@@ -44,18 +44,18 @@
 	        <property name="dataSource" ref="dataSource"/>
 	 </bean>
 	
-	<!--加签配置 -->
+	<!--&lt;!&ndash;加签配置 &ndash;&gt;
 	<bean id="authSDKClient" class="com.yonyou.cloud.auth.sdk.client.AuthSDKClient">
 		<constructor-arg name="accessKey" value="${access.key}" />  
 		<constructor-arg name="accessSecret" value="${access.secret}" />  
 	</bean>
 	    
-	<!--eos组件配置综合 -->
+	&lt;!&ndash;eos组件配置综合 &ndash;&gt;
 	<bean id="eosConfig" class="com.yonyou.cloud.config.eos.EOSConfig">
     	<property name="jdbcTemplate" ref="jdbcTemplate"/>
     	<property name="transactionManager" ref="transactionManager"/>
     	<property name="authSDKClient" ref="authSDKClient"/>
-	</bean>
+	</bean>-->
 	
 
 </beans>
